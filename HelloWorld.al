@@ -6,7 +6,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hej Verden');
+        Message('App published: Hej Verden!');
     end;
 
     trigger OnAfterGetRecord()
